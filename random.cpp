@@ -8,7 +8,7 @@ int main()
     srand(time(NULL));//시간을 seed 값으로 사용하여 난수를 생성 
 
     rnum = rand() % 100 + 1;//0부터 99까지이지만 +1을 함으로서 1부터 100까지로 범위가 지정
-    cout << "랜덤한 수: " << rnum << std::endl;
+    cout << "랜덤한 수: " << rnum << endl;
 
     cout << "특정 배수 개수: ";
     cin >> mnum;
